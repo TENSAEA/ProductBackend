@@ -9,6 +9,6 @@ const {
 
 router.post("/", register);
 router.post("/login", login);
-router.get("/profile", protectProduct, getProfile); // This line should be checked
+router.get("/profile", protectProduct, getProfile);
 
 module.exports = router;
